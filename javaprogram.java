@@ -1,7 +1,7 @@
-public class java program{
+public class javaprogram {
 	
-{
-public static void main(string args[])
+
+public static void main(String args[]){
 System.out.println("my first java program");
 }
 }
