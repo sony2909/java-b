@@ -2,7 +2,6 @@ public class Addition{
 
 	public static int a=10;
 	public static int b=5;
-
 	public static int numbers()
 	{
 	System.out.println("value of a is:"+a);
@@ -12,7 +11,7 @@ public class Addition{
 }
 
   public static void main(String args[]){
-  	  int x = Addition.numbers();
+  	  int x= Addition.numbers();
   	  System.out.println("returned value"+x);
   }
 }
