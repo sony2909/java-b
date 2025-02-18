@@ -1,27 +1,27 @@
-publicc class Grades{
+public class Grades{
 
-	int marks=85;
+	 static int marks=85;
 
 	public static void calculateGrade(){
-		switch(marks)
-		if marks(90-100);{
-		System.out.println(" grade is a");
+		if (marks>=90&&marks<=100){
+		System.out.println(" Grade is A");
+		}
+		else if (marks>=80&&marks<=89){
+		System.out.println("Grade is B");
+		}
+		else if (marks>=70&&marks<=79){
+		System.out.println("Grade is C");
+	    }
+	    else if (marks>=60&&marks<=69){
+		System.out.println("Grade is D");
+        }
+        else {
+		System.out.println("Grade is F");
 	}
-		if marks(80-89);{
-		System.out.println("grade s b");
-	}
-		if marks(70-79);{
-		System.out.println("grade is c");
-	}
-		if marks(60-69);{
-		System.out.println("grade is d");
-	}
-		if marks(0-60);{
-		System.out.println("grade is f");
-	}
-
 		public static void main(String args[]){
-			Grades.calculateGrade();
+			calculateGrade();
 		}
 	}
 }
+
+
